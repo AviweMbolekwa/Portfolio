@@ -582,8 +582,8 @@
  .content-card 
  {
    position: relative;
-   background: var(--smoky-black);
-   border: 1px solid var(--eerie-black);
+   background: var(--smoky-navy);
+   border: 1px solid var(--eerie-navy);
    padding: 40px;
    margin-bottom: 20px;
  }
