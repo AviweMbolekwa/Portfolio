@@ -6,14 +6,19 @@
 
 
 /*-----------------------------------*\
-  #RESPONSIVE FOR 360PX
+  #RESPONSIVE FOR 370PX
 \*-----------------------------------*/
 
-@media (min-width: 360px) {
+@media (min-width: 370px) {
 
   /**
    * ABOUT
    */
+
+  .about-table tr { flex-direction: row; }
+
+  .about-table th,
+  .about-table td { width: 50%; }
 
 }
 
@@ -67,38 +72,6 @@
    */
 
   .portfolio-carousel-inner { width: 250%; }
-
-
-  /**
-   * SERVICE
-   */
-
-  .service-card { display: flex; }
-
-  .service-card .card-head {
-    width: 70%;
-    min-width: 70%;
-  }
-
-  .service-card .card-footer {
-    width: 30%;
-    min-width: 30%;
-    display:         flex;
-    flex-direction:  column;
-    justify-content: center;
-    align-items:     center;
-    padding: 20px;
-    border-top: none;
-    border-left: 1px solid hsla(100, 100%, 100%, 0.05);
-  }
-
-
-  /**
-   * CUSTOMERS
-   */
-
-  #customers .wrapper { grid-template-columns: 1fr 1fr; }
-
 
   /**
    * CONTACT
