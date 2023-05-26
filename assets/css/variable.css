@@ -4,28 +4,39 @@
 
 /* copyright 2022 @Aviwe Mbolekwa */
 
+
 :root {
 
-    /* Colors */
-  
-     --eerie-navy: #143f5c;
-     --liver-chestunut: #C79360;
-     --battleship-gray:  #c0c3c5;
-     --spanish-gray:    #999999;
-     --smoky-black: #04090b;
-     --white:           #ffffff;
-  
-    /* Typograpy */
-  
-    --fs-1: 36px;
-    --fs-2: 30px;
-    --fs-3: 24px;
-    --fs-4: 19px;
-    --fs-5: 18px;
-    --fs-6: 14px;
-  
-    /* Others */
-  
-    --default-transition: 0.25s ease;
-  
-  }
+  /**
+   * Colors 
+   */
+
+   --eerie-navy-dark:#143f5c;
+   --liver-chestunut: #d49f2c;
+   --battleship-gray: #878787;
+   --spanish-gray:    #999999;
+   --eerie-navy:     #143f5c;
+   --smoky-navy:     #143f5c;
+   --light-gray:      #cccccc;
+   --gainsboro:       #dedede;
+   --white:           #ffffff;
+   --jet:             #487695;
+
+  /**
+   * Typograpy 
+   */
+
+  --fs-1: 36px;
+  --fs-2: 30px;
+  --fs-3: 24px;
+  --fs-4: 20px;
+  --fs-5: 18px;
+  --fs-6: 14px;
+
+  /**
+   * Others 
+   */
+
+  --default-transition: 0.25s ease;
+
+}
