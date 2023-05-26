@@ -18,7 +18,7 @@
   .about-table tr { flex-direction: row; }
 
   .about-table th,
-  .about-table td { width: 50%; }
+  .about-table td { width: 40%; }
 
 }
 
