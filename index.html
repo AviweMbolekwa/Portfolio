@@ -18,7 +18,7 @@
   -->
   <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 
 <body>
@@ -215,10 +215,12 @@
         </table>
 
         <button class="download-cv">
+          <a href="/assets/images/MYRESUME1.pdf" download="resume">
           <ion-icon name="cloud-download-outline"></ion-icon>
-          <a href="/assets/images/MYRESUME97.pdf" download="resume">
+          <a href="/assets/images/MYRESUME1.pdf" download="resume">
             <span>Download CV</span>
           </a>
+        </a>
         </button>
 
 
@@ -253,62 +255,113 @@
 
                 </div>
 
-                <div class="content-card">
-
-                  <div class="card-head">
-                    <h4>Vusisizwe Secondary School</h4>
-                    <p>( 2011 — 2015 )</p>
-                  </div>
-  
-                  <div class="card-body">
-                    <h3>National Senior Certificate</h3>
-                  </div>
-  
-                 </div>
 
            </div>
 
            <div class="two tab-content">
 
-        <table class="about-table">
-          <tr>
-            <th>Frontend</th>
-            <td class="upper">Backend</td>
-          </tr>
-    
-          <tr>
-            <th><ion-icon name="logo-html5"></ion-icon>
-              HTML</th>
-            <td class="upper"><ion-icon name="cafe-sharp"></ion-icon>
-              Java</td>
-          </tr>
-         
-          <tr>
-          <th><ion-icon name="logo-css3"></ion-icon>
-            CSS</th>
-          <td class="upper"><ion-icon name="logo-python"></ion-icon>
-            Python</td>
-        </tr>
-        
-        <tr>
-        <th><ion-icon name="logo-javascript"></ion-icon>
-          JavaScript</th>
-        <td class="upper"><ion-icon name="logo-github"></ion-icon>
-          Git</td>
-      </tr>
+            <div class="skills__container container grid">
+              <div class="skills__content skillcontent1">
+                  <h3 class="skills__title">Frontend</h3>
 
-      <tr>
-        <th><ion-icon name='checkmark-circle-sharp'></ion-icon>
-          BootStrap</th>
-        <td class="upper"><ion-icon name='checkmark-circle-sharp'></ion-icon>
-          MySQL</td>
-      </tr>
+                  <div class="skills__box">
+                      <div class="skills__group">
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
 
-        </table>
+                              <div>
+                                  <h3 class="skills__name">HTML/CSS</h3>
+                                  <span class="skills__level">Intermediate</span>
+                              </div>
+                          </div>
 
-        </div>
-      </div>
+                          
 
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
+                              
+                              <div>
+                                  <h3 class="skills__name">JavaScript</h3>
+                                  <span class="skills__level">Intermediate</span>
+                              </div>
+                          </div>
+
+                      </div>
+
+                      <div class="skills__group">
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
+                              
+                              <div>
+                                  <h3 class="skills__name">BootStrap</h3>
+                                  <span class="skills__level">Basic</span>
+                              </div>
+                          </div>
+
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
+                              
+                              <div>
+                                  <h3 class="skills__name">Swing</h3>
+                                  <span class="skills__level">Intermediate</span>
+                              </div>
+                          </div>
+
+
+                      </div>
+                  </div>
+              </div>
+
+              <div class="skills__content skillcontent2">
+                  <h3 class="skills__title">Backend</h3>
+
+                  <div class="skills__box">
+                      <div class="skills__group">
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
+
+                              <div>
+                                  <h3 class="skills__name">Java</h3>
+                                  <span class="skills__level">Intermediate</span>
+                              </div>
+                          </div>
+
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
+                              
+                              <div>
+                                  <h3 class="skills__name">Python</h3>
+                                  <span class="skills__level">Basic</span>
+                              </div>
+                          </div>
+
+                      </div>
+
+                      <div class="skills__group">
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
+
+                              <div>
+                                <h3 class="skills__name">Git</h3>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                              
+                          </div>
+
+                          <div class="skills__data">
+                              <i class="uil uil-check-circle"></i>
+                              
+                              <div>
+                                <h3 class="skills__name">MySQL</h3>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                              
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
 
 
@@ -370,6 +423,20 @@
 
         </div>
 
+        <div class="portfolio-carousel-card">
+
+          <div class="card-head">
+            <img src="./assets/images/stationeryManagement.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+          </div>
+
+          <div class="card-body">
+            <p>Swing, Java, MySQL, JDBC, Socket</p>
+            <h4><a href="https://github.com/AviweMbolekwa/StationeryManagementSystem">
+              <ion-icon name='eye'></ion-icon>Stationery Management System</a></h4>
+          </div>
+
+        </div>
+
     </div>
 
     </div>
@@ -392,23 +459,23 @@
 
             <div>
               <label for="name">Name *</label>
-              <input type="text" name="name" id="name" required>
+              <input type="text" name="name" id="name" aria-placeholder="your name" required>
             </div>
 
             <div>
-              <label for="email">Email *</label>
-              <input type="email" name="email" id="email" required>
+              <label for="email" placeholder="your email">Email *</label>
+              <input type="email" name="email" id="email" aria-placeholder="your email" required>
             </div>
 
           </div>
 
           <div>
-            <label for="phone">Phone</label>
+            <label for="phone" aria-placeholder="your phone number">Phone</label>
             <input type="tel" name="phone" id="phone">
           </div>
 
           <div>
-            <label for="message">Message</label>
+            <label for="message">Message *</label>
             <textarea name="message" id="message" rows="8" required></textarea>
           </div>
 

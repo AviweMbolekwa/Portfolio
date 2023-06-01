@@ -489,15 +489,20 @@
    transition: var(--default-transition);
  }
  
- .download-cv:hover { border-color: var(--liver-chestunut); }
+ .download-cv:hover 
+ { 
+   border-color: var(--liver-chestunut); 
+ }
  
- .download-cv ion-icon {
+ .download-cv ion-icon 
+ {
    font-size: 60px;
    --ionicon-stroke-width: 25px;
    color: var(--gainsboro);
  }
  
- .download-cv span {
+ .download-cv span 
+ {
    font-size: var(--fs-5);
    font-weight: 500;
    text-transform: uppercase;
@@ -639,77 +644,62 @@
  /**
   * skill tab 
   */
- 
- .skill-box 
- { 
-   margin-bottom: 30px; 
- }
- 
- .skill-name 
- {
-   color: var(--battleship-gray);
-   font-size: var(--fs-5);
-   font-weight: 400;
-   margin-bottom: 10px;
- }
- 
- .progress-bar 
- {
-   position: relative;
-   width: 100%;
-   height: 1px;
-   background: var(--jet);
- }
- 
- .progress 
- {
-   height: 1px;
-   background: var(--liver-chestunut);
-   transform: scale(0);
-   transform-origin: left;
-   animation: scaleUp 3s cubic-bezier(.165, .84, .44, 1) forwards;
- }
- 
- @keyframes scaleUp 
- {
-   
-   0%   { transform: scale(0); }
-   100% { transform: scale(1); }
- 
- }
- 
- .progress-rate 
- {
-   position: absolute;
-   background: hsla(0, 0%, 100%, 0.05);
-   color: var(--liver-chestunut);
-   font-size: var(--fs-6);
-   bottom: calc(100% + 10px);
-   transform: translateX(-50%);
-   padding: 2px 8px;
- }
- 
- .progress-rate::after {
-   content: '';
-   position: absolute;
-   top: 100%;
-   left: 50%;
-   transform: translate(-50%, -50%) rotate(45deg);
-   border: 3px solid transparent;
-   border-color: transparent
-                 hsla(0, 0%, 100%, 0.05)
-                 hsla(0, 0%, 100%, 0.05)
-                 transparent;
- }
- 
- .skill-text 
- {
-   max-width: 500px;
-   color: var(--battleship-gray);
-   font-size: var(--fs-5);
-   margin-top: 40px;
- }
- 
+
+  .skills__container{
+    row-gap: 2rem;
+    padding-top: 1rem;
+    
+}
+
+.skills__content{
+    background-color: var(--eerie-navy-dark);
+    color: var(--gainsboro);
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+}
+
+.skills__title{
+  font-size: var(--fs-5);
+  font-weight: 400;
+  color: var(--battleship-gray);
+  text-transform: uppercase;
+  text-align: start;
+  margin-bottom: 1.5rem;
+}
+
+.skills__box{
+    display: flex;
+    justify-content: start;
+    column-gap: 2.5rem;
+}
+
+.skills__group{
+    display: grid;
+    align-content: flex-start;
+    row-gap: 1rem;
+}
+
+.skills__data{
+    display: flex;
+    column-gap: .5rem;
+}
+
+.skills .uil-check-circle{
+    font-size: 1rem;
+    color: var(--gainsboro);
+}
+
+.skills__name{
+  font-size: var(--fs-5);
+  font-weight: 400;;
+  margin-bottom: 10px;
+}
+
+.skills__level{
+    font-size: var( --fs-7);
+    color: var(--battleship-gray);
+}
+
  
  
  
@@ -956,14 +946,18 @@
  }
  
  .address address,
- .phone a {
+ .phone a 
+ {
    color: var(--gainsboro);
    font-size: var(--fs-3);
    font-style: normal;
    transition: var(--default-transition);
  }
  
- .phone a:hover { color: var(--liver-chestunut); }
+ .phone a:hover 
+ { 
+   color: var(--liver-chestunut); 
+ }
  
  .email a 
  {
