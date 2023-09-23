@@ -11,16 +11,13 @@
    * Colors 
    */
 
-   --eerie-navy-dark:#143f5c;
-   --liver-chestunut: #d49f2c;
-   --battleship-gray: #878787;
-   --spanish-gray:    #999999;
-   --eerie-navy:     #143f5c;
-   --smoky-navy:     #143f5c;
-   --light-gray:      #cccccc;
-   --gainsboro:       #dedede;
-   --white:           #ffffff;
-   --jet:             #487695;
+   --eerie-navy-dark:#313556;
+   --liver-chestunut: #6B79BD;
+   --battleship-gray: #e2e0e0cb;
+   --spanish-gray:    #9F8D7F;
+   --spanish-gray-hover: #856956f8;
+   --white:           #E4E4E4;
+   --purple:           #bfa5d8;
 
   /**
    * Typograpy 

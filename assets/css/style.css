@@ -58,6 +58,12 @@
  { 
    display: block; 
  }
+
+ img 
+ {
+  display: block;
+  width: 100%;
+ }
  
  a, span 
  { 
@@ -109,19 +115,19 @@
    align-items: center;
    gap: 10px;
    font-size: var(--fs-5);
-   color: var(--gainsboro);
+   color: var(--battleship-gray);
    z-index: 5;
  }
  
  .menu-open-btn ion-icon 
  {
-   color: var(--white);
+   color: var(--battleship-gray);
    font-size: 28px;
  }
  
  .nav 
  {
-   background: var(--eerie-navy);
+   background: var(--eerie-navy-dark);
    position: absolute;
    top:    0;
    right: -100%;
@@ -174,7 +180,7 @@
  .nav-heading 
  {
    font-size: var(--fs-5);
-   color: var(--battleship-gray);
+   color: var(--liver-chestunut);
    font-weight: 800;
    text-transform: uppercase;
    margin-bottom: 25px;
@@ -206,7 +212,7 @@
  
  .nav-link 
  {
-   color: var(--gainsboro);
+   color: var(--white);
    font-size: var(--fs-4);
    transition: var(--default-transition);
  }
@@ -247,7 +253,7 @@
  
  .social-link a:hover 
  { 
-   background: #C79360; 
+   background: var(--purple); 
  }
  
  .social-link ion-icon 
@@ -264,18 +270,18 @@
  
  .nav-footer p a 
  { 
-   color: var(--gainsboro); 
+   color: var(--battleship-gray); 
  }
  
  .link-underline 
  {
-   border-bottom: 1px solid hsla(100, 100%, 100%, 0.2);
+   border-bottom: 1px solid var(--spanish-gray);
    transition: var(--default-transition);
  }
  
  .link-underline:hover 
  { 
-   border-color: hsla(100, 100%, 100%, 0.4); 
+   border-color: #9a82b1; 
  }
  
  
@@ -298,7 +304,7 @@
  .intro-border 
  {
    position: absolute;
-   border: 1px solid #C79360;
+   border: 1px solid var(--liver-chestunut);
    transition: var(--default-transition);
    pointer-events: none;
  }
@@ -337,7 +343,7 @@
    justify-content: space-between;
    align-items:     center;
    font-size: 30px;
-   color: var(--gainsboro);
+   color: var(--white);
    margin-bottom: 20px;
  }
  
@@ -358,7 +364,7 @@
  
  .intro-link:hover 
  { 
-   color: var(--gainsboro); 
+   color: var(--white); 
  }
  
  .intro-link .circle 
@@ -391,7 +397,7 @@
  
  .section-subtitle 
  {
-   color: var(--liver-chestunut);
+   color: var(--spanish-gray);
    font-size: var(--fs-5);
    font-weight: 500;
    text-transform: uppercase;
@@ -402,7 +408,7 @@
  .section-title 
  {
    position: relative;
-   color: var(--gainsboro);
+   color: var(--liver-chestunut);
    font-size: var(--fs-1);
    font-weight: 400;
    padding-bottom: 15px;
@@ -423,7 +429,7 @@
  .section-desc 
  {
    color: var(--battleship-gray);
-   font-size: var(--fs-4);
+   font-size: var(--fs-5);
    margin-bottom: 60px;
  }
  
@@ -466,18 +472,18 @@
  
  .about-table td 
  {  
-  color: var(--gainsboro); 
+  color: var(--battleship-gray); 
   
  }
  .about-table .upper
  {
-  color: var(--gainsboro); 
+  color: var(--battleship-gray); 
   text-transform: uppercase;
  }
  
  .download-cv 
  {
-   border: 2px solid hsla(100, 100%, 100%, 0.2);
+   border: 2px solid #6B79BD;
    width: 100%;
    padding: 60px 0;
    color: var(--battleship-gray);
@@ -498,7 +504,7 @@
  {
    font-size: 60px;
    --ionicon-stroke-width: 25px;
-   color: var(--gainsboro);
+   color: var(--battleship-gray);
  }
  
  .download-cv span 
@@ -541,7 +547,7 @@
  {
    content: '';
    position: absolute;
-   background: hsla(100, 100%, 100%, 0.2);
+   background: var(--liver-chestunut);
    width: 40px;
    height: 2px;
    top:   55%;
@@ -587,8 +593,8 @@
  .content-card 
  {
    position: relative;
-   background: var(--smoky-navy);
-   border: 1px solid var(--eerie-navy);
+   background: var(--spanish-gray);
+   border: 3px solid var(--liver-chestunut);
    padding: 40px;
    margin-bottom: 20px;
  }
@@ -616,7 +622,7 @@
  
  .content-card .card-head h4 
  {
-   color: var(--gainsboro);
+   color: var(--eerie-navy-dark);
    font-size: var(--fs-5);
    font-weight: 400;
    text-transform: uppercase;
@@ -624,12 +630,12 @@
  
  .content-card .card-head p 
  { 
-   color: var(--battleship-gray); 
+   color: var(--eerie-navy-dark); 
  }
  
  .content-card .card-body h3 
  {
-   color: var(--gainsboro);
+   color: var(--eerie-navy-dark);
    font-size: var(--fs-3);
    font-weight: 400;
    margin-bottom: 18px;
@@ -652,16 +658,16 @@
 }
 
 .skills__content{
-    background-color: var(--eerie-navy-dark);
-    color: var(--gainsboro);
+    background-color: var(--spanish-gray);
+    color: var(--eerie-navy-dark);
     padding: 1.5rem;
     border-radius: 1.25rem;
 }
 
 .skills__title{
   font-size: var(--fs-5);
-  font-weight: 400;
-  color: var(--battleship-gray);
+  font-weight: 900;
+  color: var(--eerie-navy-dark);
   text-transform: uppercase;
   text-align: start;
   margin-bottom: 1.5rem;
@@ -686,7 +692,7 @@
 
 .skills .uil-check-circle{
     font-size: 1rem;
-    color: var(--gainsboro);
+    color: var(--eerie-navy-dark);
 }
 
 .skills__name{
@@ -695,14 +701,7 @@
   margin-bottom: 10px;
 }
 
-.skills__level{
-    font-size: var( --fs-7);
-    color: var(--battleship-gray);
-}
 
- 
- 
- 
  
  /*-----------------------------------*\
    #PORTFOLIO
@@ -790,12 +789,13 @@
    position: relative;
    margin-top: 80px;
    overflow: hidden;
+   width: 130%;
  }
  
  .portfolio-carousel-inner 
  {
    width: 500%;
-   display:         flex;
+   display:  flex;
    justify-content: start;
    align-items:     start;
    gap: 10px;
@@ -805,12 +805,14 @@
  .portfolio-carousel-card 
  { 
    width: 100%; 
+   margin-right: 90px;
+   border: solid 2px var(--liver-chestunut);
  }
  
  .portfolio-carousel-card .card-head 
  {
    width: 100%;
-   aspect-ratio: 4/3;
+   aspect-ratio: 6/3;
    height: auto;
    overflow: hidden;
    margin-bottom: 30px;
@@ -828,11 +830,12 @@
    color: var(--battleship-gray);
    font-size: var(--fs-5);
    margin-bottom: 5px;
+   padding: 20px;
  }
  
  .portfolio-carousel-card .card-body a 
  {
-   color: var(--gainsboro);
+   color: var(--battleship-gray);
    font-size: var(--fs-3);
    font-weight: 400;
    display: inline-block;
@@ -843,7 +846,55 @@
  { 
    color: var(--liver-chestunut); 
  }
+
+ .span {
+  color: var(--battleship-gray);
+  display:     inline-flex;
+  align-items: center;
+  flex-wrap:   wrap;
+  gap: 10px;
+  
+ }
+
+.span i, ion-icon{
+font-size: 18px;
+margin-left: 8px;
+color: var(--spanish-gray);
+}
+
+.below-head {
+  margin-left: 5px;
+  margin-bottom: 25px;
+}
+
+.project-header {
+  padding-left: 20px;
+  color: var(--purple);
+}
+
  
+ .go{
+  background-color: var(--spanish-gray);
+  text-align: start;
+  height: fit-content;
+  width: auto;
+  margin: 6px;
+  border-radius: 2px;
+  border: none;
+  color: var(--battleship-gray);
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0,01;
+ }
+
+ .go:hover {
+  background-color: var(--spanish-gray-hover);
+  font-size: var(--fs-5);
+  font-weight: 100;
+  opacity: 1;
+ }
+
  
  
  /*-----------------------------------*\
@@ -881,7 +932,7 @@
    padding: 20px;
    background: transparent;
    border: 1px solid hsla(100, 100%, 100%, 0.2);
-   color: var(--light-gray);
+   color: var(--battleship-gray);
    letter-spacing: 0.5px;
    outline: none;
    transition: var(--default-transition);
@@ -904,7 +955,7 @@
  
  .contact-form button 
  {
-   color: var(--gainsboro);
+   color: var(--battleship-gray);
    font-size: var(--fs-5);
    font-weight: 600;
    text-transform: uppercase;
@@ -942,13 +993,13 @@
  }
  .email, .social-media 
  {
-   color: var(--white);
+   color: var(--spanish-gray);
  }
  
  .address address,
  .phone a 
  {
-   color: var(--gainsboro);
+   color: var(--white);
    font-size: var(--fs-3);
    font-style: normal;
    transition: var(--default-transition);
@@ -961,7 +1012,7 @@
  
  .email a 
  {
-   color: var(--gainsboro);
+   color: var(--white);
    font-size: var(--fs-5);
  }
  
@@ -1047,5 +1098,5 @@
  
  .copyright a 
  { 
-   color: var(--gainsboro); 
+   color: var(--battleship-gray); 
  }
