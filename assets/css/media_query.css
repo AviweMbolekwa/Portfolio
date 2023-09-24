@@ -9,7 +9,7 @@
   #RESPONSIVE FOR 370PX
 \*-----------------------------------*/
 
-@media (min-width: 370px) {
+@media (min-width: 360px) {
 
   /**
    * ABOUT
@@ -19,6 +19,8 @@
 
   .about-table th,
   .about-table td { width: 50%; }
+
+  .portfolio-carousel-inner { width: 290%; }
 
 }
 
