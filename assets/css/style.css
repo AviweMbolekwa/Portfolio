@@ -759,14 +759,14 @@
  }
  
  .go {
-   background-color: var(--spanish-gray);
+   background: var(--spanish-gray);
+   color: var(--eerie-navy-dark);
    text-align: start;
    height: fit-content;
    width: auto;
    margin: 6px;
    border-radius: 2px;
    border: none;
-   color: var(--battleship-gray);
    padding: 12px 16px;
    font-size: 16px;
    cursor: pointer;
