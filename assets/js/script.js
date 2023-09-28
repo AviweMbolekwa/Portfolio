@@ -87,3 +87,8 @@ portfolioCarouselPrev.addEventListener('click', function () {
   portfoCount--;
   carouselFunc(portfoCount);
 });
+
+// Download resume
+function downloadFile() {
+  window.open("/assets/images/Message.pdf")
+}
