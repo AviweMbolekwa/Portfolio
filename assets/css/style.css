@@ -630,6 +630,7 @@
  }
  
  .btn-group button {
+  display: inline-block;
    position: relative;
  }
  
