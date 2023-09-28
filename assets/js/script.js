@@ -92,7 +92,3 @@ portfolioCarouselPrev.addEventListener('click', function () {
 function downloadFile() {
   window.open("/assets/images/Message.pdf")
 }
-
-function goTop() {
-  window.location.href= "#home"
-}
